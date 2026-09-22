@@ -103,6 +103,10 @@ See [docs/new-domain-guide.md](docs/new-domain-guide.md) for a step-by-step walk
 5. Set up the loop
 6. Let it run for a few cycles before tweaking anything
 
+## Using this with other AI assistants
+
+Nothing here is Claude-specific — the four files and the cycle prompt in [docs/cowork-setup.md](docs/cowork-setup.md) are plain instructions. To run this with ChatGPT or another assistant, give it this repo's URL and ask it to get the loop working using whatever scheduling mechanism that assistant offers.
+
 ## Contributing
 
 This is an experiment. If you try it on a new domain and learn something interesting about what works, open a PR adding your domain to the `domains/` folder or share your learnings.
